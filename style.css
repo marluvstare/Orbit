@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-image: url("landing_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    max-width: 740px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.001);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    padding: 0px 25px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: sticky;
+    top: 50px;
+    z-index: 100;
+}
+.logo{
+    height:35px;
+    width: 95px;
+}
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    text-decoration: none;
+    color: #CCCCCC;
+}
+.nav-sec a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+.nav-sec a:hover{
+    color: white;
+    transition: color 0.5s ease-out;
+}
+.sign-up-btn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+.sign-up-btn a:hover{
+    color: white;
+    transition: background-color 0.5s ease-out;
+}
+.sign-up-btn:hover{
+    background-color:  #0019C9;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+.hero{
+    margin-top: 5px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Inter', sans-serif, bold;
+    color: white;
+    margin-bottom: 0;
+}
+.glow{
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.try-btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+.try-btn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+.try-btn a:hover{
+    color: white;
+    transition: color 0.5s ease-out;
+}
+.try-btn:hover{
+    background-color:  #0019C9;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+.hero-pic{
+    width: 1040px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 170px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero-pic:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 30px 40px rgba(0, 60, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Inter', sans-serif, bold;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 100px;  
+}
+.card-main{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60px;
+}
+.card1{
+    width: 300px;
+    height: 330px;
+    background-color: black;
+    border-radius: 16px;
+    border: 1px solid rgb(112, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2{
+    width: 300px;
+    height: 330px;
+    background-color: black;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 112, 7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 30px 40px rgba(19, 227, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 30px 40px rgba(227, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.reason-stack{
+    display: flex;
+    gap: 15px;
+    padding: 0px 25px;
+    margin-top: 0px;
+}
+.reason-stack p{
+    color: #CCCCCC;
+}
+.reason-stack p:hover{
+    color: white;
+    transition: color 0.5s ease-out;
+}
